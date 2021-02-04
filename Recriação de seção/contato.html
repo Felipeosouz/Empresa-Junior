@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <nav>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quem_somos.html">Quem Somos</a></li>
+        <li><a href="contato.html.html">Contato</a></li>
+    </nav>
+    <img class="logo" src="_imagens/logo_cliente.png">
+    <section id="contato">
+        <h1>Entre em contato</h1>
+        <form method="POST">
+            <fieldset id="usuario">
+            <legend>Identificação</legend>
+            <p><label for="iname">Nome: </label><input type="text" id="iname" placeholder="Digite seu nome"></p>
+            <p><label for="iemail">E-mail: </label><input type="email" id="iemail" placeholder="Digite o seu e-mail"></p>
+            <fieldset id="sexo">
+                <legend>Sexo</legend>
+                <input type="radio" name="nsex" id="imasc"><label for="imasc">Masculino</label>
+                <input type="radio" name="nsex" id="ifem"><label for="ifem">Feminino</label> 
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <p><label for="irua">Logradouro:</label> <input type="text" id="irua" placeholder="Rua, Bairro, Avn..."></p>
+            <p><label for="inum">Número:</label> <input type="number" id="inum" placeholder="Número" min="1" max="9999"></p>
+            <p><label for="iest">Estado: </label><input type="text" id="iest" placeholder="Estado"></p>
+            <p><label for="icity">Cidade: </label><input type="text" id="icity" placeholder="Cidade"></p>
+        </fieldset>
+        <div>
+        <input type="image" src="_imagens/botao-enviar.png">
+        </div>
+        </form>
+        <div>
+            <iframe width="400" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15549.54286617102!2d-38.50118567899608!3d-13.011091646383141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160350c64c49f1%3A0xe147d4c3b1823730!2sRio%20Vermelho%2C%20Salvador%20-%20BA!5e0!3m2!1spt-BR!2sbr!4v1586282542614!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,33 @@
+Explicação sobre o funcionamento do site.
+
+-> O site contem um sistema que pode ser acessado pela area de contato, esse sistema
+possui login e cadastro. após logado tem 2 tipos de usuarios, o Visitante e o Advogado.
+Ambos poderam utilizar do chat que funciona em "tempo real" e ver/editar os seus proprios dados
+acessando o botão "Meus Dados". Porém os Advogados poderão além de ver/editar os seus proprios dados, 
+ver todos os usuarios que estão cadastrados, no botão "Ver usuários".
+
+-> O site possui um chat para questionamentos, que identifica a pessoa que está falando e o seu cargo.
+Todas as mensagens são inseridas na tabela de mensagens do banco de dados.
+
+-> As senhas dos usuarios cadastrados são salvas em formato de hash, abaixo estão a senha dos usuarios.
+
+Advogados ( Mike / Harvey )
+usuario = mike / harvey
+senha = admin
+
+Garibaldo
+usuario = garibaldo
+senha = teste
+
+Ortis
+usuario = ortis
+senha = vaca
+
+Yago
+usuario = yagod
+senha = 1234
+
+-> As senhas e usuarios podem ser alterados no botão "Meus dados", caso deseje manter a senha e mudar apenas
+o nome e/ou o usuario, basta deixar a caixa das senhas em branco, e ao enviar aparecerá a mensagem "A senha não foi alterada".
+
+OBS: Toda o codigo php foi feito em Mysqli.

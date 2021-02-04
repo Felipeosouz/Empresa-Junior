@@ -1,0 +1,186 @@
+/* Index */
+
+header {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 200px;
+    padding: 75px;
+    font-size: 35px;
+    margin-left: 500px;
+    margin-top: 100px;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 10px #643000;
+}
+header button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #643000;
+    color: white;
+}
+header p {
+    margin-left: 40px;
+}
+
+/* Formulario login */
+
+form#login {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 200px;
+    padding-top: 0px;
+    padding: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+    padding-left: 70px;
+    font-size: 25px;
+    margin-left: 500px;
+    margin-top: 100px;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 10px #643000;
+}
+form#login input {
+    height: 20px;
+}
+form#login input#button {
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    background-color: #643000;
+    color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+form#login input#button:hover {
+    cursor: pointer;
+}
+
+/* Formulario cadastro */
+
+form#cadastro {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 200px;
+    padding-top: 0px;
+    padding: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+    padding-left: 70px;
+    font-size: 22px;
+    margin-left: 500px;
+    margin-top: 100px;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 10px #643000;
+}
+form#cadastro input {
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+form#cadastro input#button {
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    background-color: #643000;
+    color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+form#cadastro table h2 {
+    font-size: 10px;
+}
+form#cadastro input#button:hover {
+    cursor: pointer;
+}
+
+
+/* Formulário edit */
+
+form#edit {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 200px;
+    padding-top: 0px;
+    padding: 45px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+    padding-left: 70px;
+    font-size: 22px;
+    margin-left: 500px;
+    margin-top: 100px;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 10px #643000;
+}
+form#edit input {
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+form#edit input#tipo {
+    background-color: #d3d3d3;
+}
+form#edit input#button {
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    background-color: #643000;
+    color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+form#edit input#button:hover {
+    cursor: pointer;
+}
+
+/* Tabela de forum */
+
+table#myforum {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 200px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px #623000;
+    color: black;
+    font-family: sans-serif;
+}
+table#myforum td {
+    padding: 5px;
+}
+div#forum {
+    overflow: auto;
+    height: 380px;
+    width: 1100px;
+    margin-top: 50px;
+}
+
+/* Tabela dos usuarios */
+
+table#usuarios {
+    width: 400px;
+    font-size: 20px;
+}
+table#usuarios tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+table#usuarios tr:nth-child(odd) {
+    background-color: rgba(169, 169, 169, 0.6);
+}
+table#usuarios td:nth-child(1) {
+    width: 15px;
+}
+table#usuarios td:nth-child(2) {
+    width: 300px;
+}
+table#usuarios td:nth-child(3) {
+    width: 200px;
+}
+
+/* Imagem */
+
+img#return {
+    display: block;
+    position: absolute;
+    width: 50px;
+    margin-left: 400px;
+    margin-top: -50px;
+}
+

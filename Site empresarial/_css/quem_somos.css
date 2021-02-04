@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Red+Hat+Display&family=Roboto+Mono:ital@1&display=swap');
+body {
+    background-image: url('../_imagens/bgr-papel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+section#qs {
+    color: #643000;
+}
+
+/* NAV BAR */
+
+nav#menu {
+    display: block;
+    margin-top: -17px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+nav#menu img {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+nav#menu ul {
+    background-image: linear-gradient(to bottom, #643000, #422101 );
+}
+nav#menu li {
+    display: inline-block;
+    list-style: none;
+    padding-bottom: 25px;
+    padding-left: 95px;
+    padding-right: 70px;
+    font-size: 16px;
+}
+nav#menu a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+nav#menu li:hover {
+    color: rgb(240, 240, 240);
+    -webkit-transform: scale(1.1);
+}
+
+/* TEXTO */
+
+section#qs {
+    margin-left: 30px;
+}
+section#qs h1 {
+    font-size: 45px;
+    margin-left: 60px;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 10px;
+}
+section#qs h3 {
+    display: inline-block;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 22px;
+    margin-left: 50px;
+    opacity: 80%;
+}
+section#qs p {
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+}
+section#qs img {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    box-shadow: 2px 2px 10px #643000;
+    transition: 0.2;
+    z-index: 1;
+}
+
+figcaption {
+    position: absolute;
+    margin-left: 140px;
+    border: 1px #643000 solid;
+    padding-right: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3)
+}
+figcaption#fharvey {
+    margin-top: -144px;
+    padding-top: 5px;
+    padding-bottom: 18px;
+    padding-right: 171px;
+}
+figcaption#fmike {
+    margin-top: -144px;
+    padding-right: 181px;
+    padding-bottom: 27px;
+    padding-top: 17px;
+}
+figcaption p {
+    margin-left: 100px;
+}
